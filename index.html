@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sweet Calculator</title>
+</head>
+<body>
+    <div class="main">
+        
+        <form class="calculator">
+            <h1>Sweet Calculator</h1>
+            <input type="text" class="display color" name="numdisplay" disabled>
+            <input type="button" class="clear color" value="C" onclick="clearDisplay()"><br>
+
+            <input type="button" value="7" class="num color" name="button7" onclick="num_on_display(button7.value)">
+            <input type="button" value="8" class="num color" name="button8" onclick="num_on_display(button8.value)">
+            <input type="button" value="9" class="num color" name="button9" onclick="num_on_display(button9.value)">
+            <input type="button" value="+" class="num blue" name="buttonplus" onclick="num_on_display(buttonplus.value)"><br>
+
+            <input type="button" value="4" class="num color" name="button4" onclick="num_on_display(button4.value)">
+            <input type="button" value="5" class="num color" name="button5" onclick="num_on_display(button5.value)">
+            <input type="button" value="6" class="num color" name="button6" onclick="num_on_display(button6.value)">
+            <input type="button" value="-" class="num cyan" name="buttonminus" onclick="num_on_display(buttonminus.value)"><br>
+
+            <input type="button" value="1" class="num color" name="button1" onclick="num_on_display(button1.value)">
+            <input type="button" value="2" class="num color" name="button2" onclick="num_on_display(button2.value)">
+            <input type="button" value="3" class="num color" name="button3" onclick="num_on_display(button3.value)">
+            <input type="button" value="*" class="num purple" name="buttontimes" onclick="num_on_display(buttontimes.value)"><br>
+
+            <input type="button" value="." class="num color" name="buttondot" onclick="num_on_display(buttondot.value)">
+            <input type="button" value="0" class="num color" name="button0" onclick="num_on_display(button0.value)">
+            <input type="button" value="=" class="num yellow" name="buttonequals" onclick="to_calculate()">
+            <input type="button" value="/" class="num orange" name="buttondiv" onclick="num_on_display(buttondiv.value)">
+        </form>
+    </div> 
+
+</body>
+
+<script src="script.js"></script>
+
+</html>

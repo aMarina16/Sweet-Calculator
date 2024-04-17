@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,400;0,700;1,400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: rgb(255, 255, 255);
+    width: 100%;
+    height: 100vh;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    background-color: #f3ccdc;
+    width: 350px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px 2px #d4afbf;
+
+}
+
+input {
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 5px ;
+    font-size: 28px;
+    box-shadow: 2px 2px rgb(138, 137, 137);
+}
+
+.num {
+    width: 60px;
+    height: 65px;
+}
+
+.color {
+    background-color: white;
+}
+
+.display {
+    width: 190px;
+    height: 60px;
+    text-align: center;
+}
+
+.clear {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.blue {
+    background-color: #bed4f7;
+}
+
+.cyan {
+    background-color: #b9f5f2;
+}
+
+.purple {
+    background-color: #deccfa;
+}
+
+.orange {
+    background-color: #fdc9aa;
+}
+
+.yellow {
+    background-color: #fdfdb5;
+} 
+
+h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    color: rgb(255, 255, 255);
+}
+
